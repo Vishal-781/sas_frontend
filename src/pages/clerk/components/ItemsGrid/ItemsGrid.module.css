@@ -1,0 +1,9 @@
+.items {
+  height: calc(100% - 16rem);
+  overflow-y: auto;
+
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+}
