@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import { MdOutlineStorefront } from "react-icons/md";
 import { BsBoxes } from "react-icons/bs";
 import { FiUsers } from "react-icons/fi";
-import { RiCoupon3Line } from "react-icons/ri";
+import { RiCoupon3Line , RiLineChartFill} from "react-icons/ri";
 
 import { selectRole } from "../../state/slices/auth";
 
@@ -44,6 +44,13 @@ const SidebarProvider = ({ children }) => {
       path: "/manager/deals",
       icon: <RiCoupon3Line />,
       active: pathname === "/manager/deals",
+      show: role === "manager",
+    },
+    {
+      label: "Statistics",
+      path: "/manager/statistics",
+      icon:<RiLineChartFill />,
+      active: pathname === "/manager/statistics",
       show: role === "manager",
     },
   ];

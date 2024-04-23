@@ -19,10 +19,10 @@ const ItemsProvider = ({ children }) => {
       label: "Electronics",
       icon: <HiOutlineDevicePhoneMobile />,
     },
-    {
-      label: "Clothing",
-      icon: <PiDress />,
-    },
+    // {
+    //   label: "Clothing",
+    //   icon: <PiDress />,
+    // },
     // {
     //   label: "Home & Garden",
     //   icon: <TbGardenCart />,
@@ -35,10 +35,10 @@ const ItemsProvider = ({ children }) => {
     //   label: "Toys & Games",
     //   icon: <MdOutlineSmartToy />,
     // },
-    // {
-    //   label: "Books",
-    //   icon: <PiBooks />,
-    // },
+    {
+      label: "Books",
+      icon: <PiBooks />,
+    },
     // {
     //   label: "Sports & Outdoors",
     //   icon: <MdOutlineSportsBasketball />,

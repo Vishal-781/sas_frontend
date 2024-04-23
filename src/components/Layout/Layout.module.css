@@ -5,6 +5,6 @@
 }
 
 .content {
-  margin-left: var(--width-sidebar);
+  margin-top: var(--height-sidebar);
   background-color: var(--color-base-400);
 }

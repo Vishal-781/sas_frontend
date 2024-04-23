@@ -19,7 +19,7 @@ code {
 }
 
 :root {
-  --color-primary-200: hsl(345, 100%, 87%);
+  --color-primary-200: hsl(0, 67%, 98%);
   --color-primary-300: hsl(192, 100%, 77%);
   --color-primary-400: #24bdff;
   --color-primary-500: hsl(208, 100%, 47%);
@@ -27,7 +27,7 @@ code {
   --color-primary-400-hsl: 345, 100%, 57%;
   --color-primary-500-hsl: 345, 100%, 47%;
 
-  --color-secondary-400: hsl(170, 100%, 68%);
+  --color-secondary-400: hsl(180, 100%, 68%);
   --color-secondary-500: hsl(180, 100%, 61%);
 
   --color-base-400: hsl(0, 0%, 100%);
@@ -47,7 +47,7 @@ code {
 
   --color-error-400: hsl(348, 100%, 60%);
 
-  --width-sidebar: 100px;
+  --height-sidebar: 100px;
 
   --shadow-light: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --shadow-line: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,

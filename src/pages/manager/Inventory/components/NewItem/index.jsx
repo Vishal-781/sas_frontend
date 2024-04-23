@@ -16,7 +16,7 @@ const NewItem = () => {
           type="text"
           id="imageUrl"
           name="imageUrl"
-          defaultValue={isEditingItem ? selectedItem.imageUrl : null}
+          defaultValue={isEditingItem ? selectedItem?.imageUrl : null}
           placeholder="Image Url"
         />
         <input
@@ -24,7 +24,7 @@ const NewItem = () => {
           type="text"
           id="name"
           name="name"
-          defaultValue={isEditingItem ? selectedItem.name : null}
+          defaultValue={isEditingItem ? selectedItem?.name : null}
           placeholder="Name"
         />
         <input
@@ -32,7 +32,7 @@ const NewItem = () => {
           type="number"
           id="pricePerItem"
           name="pricePerItem"
-          defaultValue={isEditingItem ? selectedItem.pricePerItem : null}
+          defaultValue={isEditingItem ? selectedItem?.pricePerItem : null}
           placeholder="Price Per Item"
         />
         <select id="category" name="category" className={styles.input}>
@@ -46,7 +46,7 @@ const NewItem = () => {
           type="number"
           id="quantity"
           name="quantity"
-          defaultValue={isEditingItem ? selectedItem.quantity : null}
+          defaultValue={isEditingItem ? selectedItem?.quantity : null}
           placeholder="Quantity"
         />
         <div className={styles.divider}></div>
